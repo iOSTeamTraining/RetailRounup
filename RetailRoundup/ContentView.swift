@@ -20,7 +20,7 @@ struct ContentView: View {
             SecondView()
                 .tabItem {
                     Image(systemName: "cart")
-                    Text("Cart")
+                    Text("MyCart")
                 }
             
 //             ThirdView()
