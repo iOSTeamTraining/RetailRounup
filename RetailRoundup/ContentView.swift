@@ -23,11 +23,11 @@ struct ContentView: View {
                     Text("Cart")
                 }
             
-            ThirdView()
-                .tabItem {
-                    Image(systemName: "mappin.and.ellipse")
-                    Text("Maps")
-                }
+//             ThirdView()
+//                 .tabItem {
+//                     Image(systemName: "mappin.and.ellipse")
+//                     Text("Maps")
+//                 }
 
             FourthView()
                 .tabItem {
@@ -70,14 +70,14 @@ struct SecondView : View {
     }
 }
 
-struct ThirdView : View {
-    var body: some View {
-        ZStack {
-            Color.gray.ignoresSafeArea(edges:.top)
-            Text("Maps View")
-        }
-    }
-}
+// struct ThirdView : View {
+//     var body: some View {
+//         ZStack {
+//             Color.gray.ignoresSafeArea(edges:.top)
+//             Text("Maps View")
+//         }
+//     }
+// }
 
 struct FourthView : View {
     var body: some View {
