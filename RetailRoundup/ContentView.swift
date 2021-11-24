@@ -38,6 +38,7 @@ struct ContentView: View {
             FifthView()
                 .tabItem {
                     Image(systemName: "gear")
+
                     Text("Configurations")
                 }
 
